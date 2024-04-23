@@ -6,7 +6,7 @@ from app.model import ConversationRequest
 app = FastAPI()
 
 
-@app.post("/conversation/")
+@app.post("/conversation")
 async def post_conversation(conversation: ConversationRequest):
     await process_query(conversation)
     return {"conversation_id": conversation.conversation_id, "query": conversation.query}
