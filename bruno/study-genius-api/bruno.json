@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "STUDY_GENIUS_API",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
